@@ -8,11 +8,22 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        navigationItem.title = "首页"
+        
+    }
+    
+    @IBAction func skip(sender: AnyObject) {
+        let minorVC = MinorViewController()
+        minorVC.setTitleAndGetAccount("登录界面") { (phone, password) in
+            print("phone:\(phone) password:\(password)")
+        }
+        navigationController?.pushViewController(minorVC, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

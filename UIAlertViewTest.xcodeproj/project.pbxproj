@@ -14,6 +14,7 @@
 		ECBC6D321D38C6E300D676A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBC6D301D38C6E300D676A0 /* LaunchScreen.storyboard */; };
 		ECBC6D3D1D38C6E300D676A0 /* UIAlertViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC6D3C1D38C6E300D676A0 /* UIAlertViewTestTests.swift */; };
 		ECBC6D481D38C6E400D676A0 /* UIAlertViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC6D471D38C6E400D676A0 /* UIAlertViewTestUITests.swift */; };
+		ECBC6D561D38CDC600D676A0 /* MinorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC6D551D38CDC600D676A0 /* MinorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ECBC6D431D38C6E300D676A0 /* UIAlertViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC6D471D38C6E400D676A0 /* UIAlertViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewTestUITests.swift; sourceTree = "<group>"; };
 		ECBC6D491D38C6E400D676A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBC6D551D38CDC600D676A0 /* MinorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				ECBC6D271D38C6E300D676A0 /* AppDelegate.swift */,
 				ECBC6D291D38C6E300D676A0 /* ViewController.swift */,
+				ECBC6D551D38CDC600D676A0 /* MinorViewController.swift */,
 				ECBC6D2B1D38C6E300D676A0 /* Main.storyboard */,
 				ECBC6D2E1D38C6E300D676A0 /* Assets.xcassets */,
 				ECBC6D301D38C6E300D676A0 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBC6D561D38CDC600D676A0 /* MinorViewController.swift in Sources */,
 				ECBC6D2A1D38C6E300D676A0 /* ViewController.swift in Sources */,
 				ECBC6D281D38C6E300D676A0 /* AppDelegate.swift in Sources */,
 			);
